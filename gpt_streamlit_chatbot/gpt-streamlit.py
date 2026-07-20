@@ -5,7 +5,7 @@ from langchain_core.output_parsers import StrOutputParser
 
 import streamlit as st
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 prompt = ChatPromptTemplate.from_messages(
     [
         ("system","I am chatbot. I am here to assist you. Please type your queries"),
